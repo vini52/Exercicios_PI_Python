@@ -1,0 +1,6 @@
+ax = float(input("Digite o valor de Ax: "))
+ay = float(input("Digite o valor de Ay: "))
+bx = float(input("Digite o valor de Bx: "))
+by = float(input("Digite o valor de By: "))
+distancia = round(((bx - ax)**2 + (by - ay)**2),2)
+print(distancia)
