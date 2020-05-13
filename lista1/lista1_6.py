@@ -1,6 +1,0 @@
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-m1 = ((num1 + num2) / 2) + ((((num2 - num1) ** 2) ** 0.5) / 2)
-m2 = ((m1 + num3) / 2) + ((((num3 - m1) ** 2) ** 0.5) / 2)
-print("O maior inteiro: {}".format(int(m2)))
