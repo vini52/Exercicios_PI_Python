@@ -1,8 +1,6 @@
-n = int(input())
-z = 1
-for i in range(n,0,-1):
-    p = z
-    for j in range(p,0,-1):
-        print(z,end='')
+num = int(input())
+
+for i in range(1, num+1):
+    for j in range(i):
+        print(i, end='')
     print()
-    z += 1
